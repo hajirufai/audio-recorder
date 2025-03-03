@@ -41,9 +41,11 @@ button:disabled {
     cursor: not-allowed;
 }
 
-button:hover {
+/* button:hover {
+   
+
     background: #218838;
-}
+} */
 
 #timer {
     font-size: 18px;
