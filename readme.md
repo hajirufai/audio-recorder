@@ -2,7 +2,8 @@
 
 A simple web-based audio recorder that lets you quickly test your microphone, record audio, visualize volume levels, and download your recordings.
 
-🔗 **Click here to test your audio:** [LIVE DEMO](https://github.io/hajirufai/audio-recorder)
+🔗 **Click here to test your audio:** [LIVE DEMO](https://hajirufai.github.io/audio-recorder/)
+
 
 ## 🌟 Features
 ✅ **Quick microphone test**  
