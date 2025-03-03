@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recorder with Volume Meter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎙️ Audio Recorder</h1>
+
+        <div id="controls">
+            <button id="startBtn">Start Recording</button>
+            <button id="stopBtn" disabled>Stop Recording</button>
+            <span id="timer">00:00</span>
+        </div>
+
+        <div id="volumeMeter"><div id="volumeLevel"></div></div>
+        <canvas id="waveform"></canvas>
+
+        <audio id="audioPlayer" controls style="display:none;"></audio>
+        <a id="downloadBtn" style="display: none;" download="recording.wav">Download Recording</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
